@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    padding: 30px 30px 15px;
+    padding: 15px 30px;
 }
 
 header h1 {
@@ -32,14 +32,17 @@ header h1 {
 
 nav {
     display: flex;
-    width: 100%;
+    margin: 0px 30px;
+    border: 3px solid #FFC18E;
+    border-radius: 0px 0px 25px 25px;
 }
 
 nav ul {
     display: flex; /* El como se organizan los elementos */
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 15px;
+    padding: 5px 5px 5px 5px;
+    
 }
 
 nav ul li {
@@ -67,7 +70,8 @@ section {
 
 section article {
     background-color: #FFC18E;
-    margin: 30px;
+    margin: 15px 30px;
+    padding: 15px 30px 15px;
 }
 
 #imagen {
