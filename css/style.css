@@ -72,16 +72,20 @@ section article {
     background-color: #FFC18E;
     margin: 15px 30px;
     padding: 15px 30px 15px;
+    border: 3px solid #FFC18E;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #imagen {
     text-align: center;
+    
 }
 
 #imagen img {
     width: 20%;
     height: 20%;
-    padding: 8px;
+    border: 3px solid #FFC18E;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #titulo {
